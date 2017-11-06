@@ -1,0 +1,61 @@
+.thumbnail{
+    position: relative;
+    padding: 0px;
+}
+.thumbnail .icon-bar{
+    width:100%;
+    background-color: #dff0d8;
+    opacity: 0.7;
+    list-style: none;
+    position: absolute;
+    top: 0;
+    text-align:right;
+}
+.thumbnail .icon-bar li{
+    padding: 0;
+    margin-right: 3px;
+    color: red;
+}
+.thumbnail .icon-bar li .btn{
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+}
+.thumbnail .icon-bar li .glyphicon{
+    color:#d9534f;
+}
+
+
+.thumbnail .caption{
+    padding:0px;
+}
+.thumbnail .caption a{
+    color: black;
+}
+
+.project-modal{
+    background-color: #fff;
+    border: 1px dotted #ddd;
+    border-radius: 4px;
+    display: block;
+    height: 137px;
+    line-height: 1.42857;
+    margin-bottom: 20px;
+    padding: 4px;
+    transition: border 0.2s ease-in-out 0s;
+}
+.project-modal .modal-trigger{
+    display: block;
+    font-size: 2em;
+    margin: 12% auto;
+}
+.project-modal .modal-trigger .glyphicon{
+    margin-right: 0;
+}
+.tasks-tabs.first-cell{
+    padding-left: 4em;
+}
+.tasks-tabs.first-cell .icon-cell{
+    width:4em;
+}
